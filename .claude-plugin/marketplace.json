@@ -1,0 +1,12 @@
+{
+  "name": "zio-ai",
+  "owner": {
+    "name": "ZIO AI"
+  },
+  "plugins": [
+    {
+      "name": "zio",
+      "source": "./plugins/claude"
+    }
+  ]
+}

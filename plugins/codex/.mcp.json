@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "zio": {
+      "command": "./bin/zio-plugin-bridge.exe",
+      "args": [
+        "mcp-stdio",
+        "--host",
+        "codex"
+      ],
+      "cwd": "."
+    }
+  }
+}

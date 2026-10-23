@@ -1,0 +1,20 @@
+{
+  "name": "zio-ai",
+  "interface": {
+    "displayName": "ZIO AI"
+  },
+  "plugins": [
+    {
+      "name": "zio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
