@@ -17,7 +17,7 @@
           {
             "type": "command",
             "command": "\"${CLAUDE_PLUGIN_ROOT}/bin/zio-plugin-bridge.exe\" alert-hook --host claude",
-            "timeout": 5
+            "timeout": 2
           }
         ]
       }
