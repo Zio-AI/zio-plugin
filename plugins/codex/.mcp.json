@@ -7,7 +7,10 @@
         "--host",
         "codex"
       ],
-      "cwd": "."
+      "cwd": ".",
+      "env": {
+        "CODEX_MCP_PROTOCOL_VERSION": "2026-07-28"
+      }
     }
   }
 }
